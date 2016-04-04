@@ -88,7 +88,7 @@ input[type="text"],input[type="password"], textarea{
 .container{
 	width: 100%;
 	max-width: 1460px;
-	padding: 0 2%;
+	padding: 0 4%;
 	margin: auto;
 	/*border: 1px solid red;*/
 	-webkit-box-sizing: border-box;
@@ -98,13 +98,23 @@ input[type="text"],input[type="password"], textarea{
 
 footer{
 	width: 100%;
+	max-width: 1920px;
 	background: wheat;
 	height: 100px;
-	margin-top: -100px;
+	margin: 0 auto -100px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .wrapper{
 	min-height: 100%;
+	width: 100%;
+	max-width: 1920px;
+	margin: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /*вспомогательные модификации*/
@@ -144,7 +154,7 @@ header{
 
 
 .wrapLogo{
-	line-height: 105px;
+	line-height: 100px;
 }
 
 .wrapLogo img{
@@ -156,7 +166,7 @@ header{
 
 .phoneBlock{
 	font-size: 15px;
-	margin: 0 auto;
+	margin: 3px auto 0;
 	max-width: 210px;
 }
 
@@ -193,6 +203,7 @@ header{
 .contactsBlock{
 	/*border: 1px solid #ffc525;*/
 	text-align: right;
+	margin: 3px auto 0;
 }
 
 .contactsBlock p:nth-child(odd){
@@ -221,10 +232,10 @@ header{
 }
 
 .dropdown-menu>li>a:hover{
-	color: #696969;
+	color: #545454;
 }
 .dropdown-menu{
-	background: rgba(109, 162, 185, 0.51);
+	background: rgba(109, 162, 185, 0.61);
 	box-shadow: none;
 	border-radius: 0;
 	border: 1px solid rgba(109, 162, 185, 0.50);
@@ -240,4 +251,65 @@ header{
 /*slider*/
 .bx-wrapper .bx-viewport{
 	box-shadow: none;
+}
+
+.bxslider .container{
+	position: relative;
+}
+
+.doctorImg{
+	position: absolute;
+	z-index: 99;
+	bottom: 0;
+	left: 15%;
+	width: 30%;
+}
+
+.contentSlider{
+	position: absolute;
+	z-index: 99;
+	bottom: 0;
+	right: 15%;
+	width: 40%;
+	text-align: center;
+}
+
+.textSlider{
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px 20px 20px;
+	margin-bottom: 20%;
+}
+
+.contentSlider h1{
+	font-weight: bold;
+	font-size: 26px;
+	margin: 25px 0 20px;
+}
+
+.contentSlider p{
+	font-size: 20px;
+	margin: 0;
+}
+
+.doctorImg img{
+	width: 100%;
+}
+
+img.laptop{
+	display: none ;
+}
+
+.buttonSlider{
+	background: #a54e72;
+	color: white;
+	border: none;
+	padding: 12px 15px;
+	margin-bottom: 15%;
+	-webkit-box-shadow: 0px 5px 0px 0px rgba(122, 62, 87, 0.95);
+	-moz-box-shadow: 0px 5px 0px 0px rgba(122, 62, 87, 0.95);
+	box-shadow: 0px 5px 0px 0px rgba(122, 62, 87, 0.95);
+}
+
+.buttonSlider:hover{
+	color: white;
 }
