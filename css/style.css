@@ -71,15 +71,15 @@ a:hover, a:active {
 }
 
 /* для iphone - убирает автоматическое откругление уголов */
-/*input[type="text"],input[type="password"], textarea{*/
-	/*border-radius: 0 !important;*/
-	/*-webkit-border-radius: 0 !important;*/
-	/*-o-border-radius: 0 !important;*/
-	/*-moz-border-radius: 0 !important;*/
-	/*-khtml-border-radius: 0 !important;*/
-	/*-webkit-appearance: none;*/
-	/*line-height: inherit;*/
-/*}*/
+input[type="text"],input[type="password"], textarea{
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-khtml-border-radius: 0 !important;
+	-webkit-appearance: none;
+	line-height: inherit;
+}
 
 /*input[type="radio"] {*/
 	/*-webkit-appearance: radio;*/
@@ -89,6 +89,7 @@ a:hover, a:active {
 	width: 100%;
 	max-width: 1460px;
 	padding: 0 2%;
+	margin: auto;
 	/*border: 1px solid red;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -205,6 +206,38 @@ header{
 
 /*menu*/
 
-.navbar-form{
-	float: left;
+.navbar{
+	background: #488ba7;
+	border-radius: 0;
+	margin: 0;
+}
+.nav>li>a:hover, .nav>li>a:focus, .navbar li a:focus, .nav .open>a,.nav a:hover .nav .open>a:hover, .nav .open>a:focus{
+	background: #6da2b9;
+}
+
+
+.navbar li a{
+	color: white;
+}
+
+.dropdown-menu>li>a:hover{
+	color: #696969;
+}
+.dropdown-menu{
+	background: rgba(109, 162, 185, 0.51);
+	box-shadow: none;
+	border-radius: 0;
+	border: 1px solid rgba(109, 162, 185, 0.50);
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background: inherit;
+}
+
+.search{
+	float: right;
+}
+
+/*slider*/
+.bx-wrapper .bx-viewport{
+	box-shadow: none;
 }
