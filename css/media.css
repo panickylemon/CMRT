@@ -158,6 +158,10 @@
 		display: none;
 	}
 
+	.dropdown-menu li{
+		text-align: center;
+	}
+
 	.mobileHidden {
 		display: none;
 	}
