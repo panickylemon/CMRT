@@ -375,6 +375,7 @@ padding-right: 10px;
     }
     .contactsFooter{
 	    text-align: center;
+	    margin-bottom: 10px;
     }
     .buttonAsk{
 	    float: none;
@@ -382,6 +383,9 @@ padding-right: 10px;
     }
 	footer .container{
 		padding: 0;
+	}
+	.bottomFooter .container{
+		padding: 0 10px;
 	}
 
     .topFooter {

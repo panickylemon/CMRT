@@ -642,10 +642,6 @@ footer .container{
 	padding: 0 20px;
 }
 
-/*.menuFooter, .typeResearch, .contactsFooter{*/
-	/*border: 1px solid red;*/
-/*}*/
-
 .contactsFooter{
 	text-align: right;
 }
@@ -664,7 +660,6 @@ footer .container{
 	border-radius: 5px;
 }
 
-
 .buttonAsk a {
 	display: block;
 	text-decoration: none;
@@ -676,4 +671,34 @@ footer .container{
 
 .topFooter{
 	padding: 20px 0;
+}
+
+.bottomFooter{
+	border-top: 2px solid #f5f5f5;
+	font-size: 13px;
+	padding: 10px 0;
+}
+
+.bottomFooter:after, .bottomFooter:before{
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.allRights{
+	width: 70%;
+}
+
+.map{
+	width: 30%;
+}
+
+.map{
+	text-align: right;
+}
+
+.map a{
+	color: #a54e72;
+	text-decoration: none;
+	cursor: pointer;
 }
