@@ -138,6 +138,13 @@ footer {
 	color: #a54e72;;
 }
 
+h2 {
+	margin: 0;
+	text-align: center;
+	padding: 40px 0;
+	font-size: 30px;
+	font-weight: bold;
+}
 
 /*header*/
 
@@ -208,10 +215,9 @@ header {
 
 /*menu*/
 
-.mobileMenu{
+.mobileMenu {
 	display: none;
 }
-
 
 .mobileMenu .navbar-nav > li {
 	width: 100%;
@@ -259,7 +265,7 @@ header {
 	width: 250px;
 }
 
-.navbar-form{
+.navbar-form {
 	box-shadow: none;
 }
 
@@ -338,15 +344,15 @@ img.laptop {
 	display: none;
 }
 
-img.mobile{
+img.mobile {
 	display: none;
 }
 
-img.mobilePortrait{
+img.mobilePortrait {
 	display: none;
 }
 
-span.mobilePortrait{
+span.mobilePortrait {
 	display: none;
 }
 
@@ -369,13 +375,47 @@ span.mobilePortrait{
 	margin: 0 auto;
 }
 
-
-
-
 /*reasonsBlock*/
 
-.reasonsBlock{
+.reasonsBlock {
 	width: 100%;
-	height: 150px;
+	/*height: 150px;*/
 	background: #488ba7;
+	color: white;
+	text-align: center;
+}
+
+.reasonsBlock h3 {
+	padding: 15px 0 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.reasonsBlock p {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+
+.textReasons {
+	max-width: 220px;
+	margin: auto;
+}
+
+/*centreKingisepp*/
+
+
+.contentCentreKingisepp{
+	width: 100%;
+	max-width: 480px;
+	margin: auto;
+	padding: 0 10px;
+}
+
+.contentCentreKingisepp p{
+	font-size: 16px;
+}
+
+.centreKingisepp img {
+	width: 100%;
+	padding-bottom: 20px;
 }

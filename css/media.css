@@ -1,9 +1,9 @@
 /*для ie*/
-/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {*/
-/*body{*/
-/*padding-right: 10px;*/
-/*}*/
-/*}*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+body{
+padding-right: 10px;
+}
+}
 
 @media screen and (max-width: 1700px) {
 	.doctorImg{
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 1310px) {
 	.contentSlider {
-		width: 45%;
+		width: 47%;
 	}
 	.buttonSlider {
 		margin-bottom: 10%;
@@ -105,7 +105,7 @@
 	}
 
 	.buttonSlider {
-		margin-bottom: 40%;
+		margin-bottom: 30%;
 	}
 	.textSlider {
 		margin-bottom: 8%;
@@ -116,7 +116,7 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.bx-controls-direction, .bx-wrapper .bx-pager{
 		display: none;
 	}
@@ -232,6 +232,10 @@
 		width: 100%
 	}
 
+	.form-group{
+		margin: 0%;
+	}
+
 	.navbar-form {
 		padding: 3px 0 3px 10px;
 	}
@@ -239,10 +243,39 @@
 	.fa-bars {
 		display: block;
 	}
+
+	.textReasons{
+		width: 45%;
+		max-width: none;
+	}
+    .reasonsBlock .imgReason{
+	    width: 55%;
+    }
+
+    .accuracyBlock .imgReason, .availabilityBlock .imgReason, .speedBlock .textReasons{
+	    float: left;
+    }
+
+	.speedBlock .textReasons{
+		text-align: right;
+	}
+	.accuracyBlock .textReasons, .availabilityBlock .textReasons, .speedBlock .imgReason{
+		float: right;
+	}
+	.accuracyBlock .textReasons, .availabilityBlock .textReasons{
+		text-align: left;
+	}
+	.reasonsBlock .container{
+		padding: 0 10px;
+	}
+    .mobileHidden{
+	    display: none;
+    }
 }
 
 
 @media screen and (max-width: 480px) {
+
 	img.mobilePortrait{
 		display: block;
 	}
@@ -252,12 +285,30 @@
 	.doctorImg{
 		width: 80%;
 	}
+	.reasonsBlock{
+		padding-bottom: 5%;
+	}
+	.textReasons{
+		width: 50%;
+		margin-top: -2%;
+	}
+	.reasonsBlock .imgReason{
+		width: 40%;
+	}
+	.reasonsBlock .imgReason img{
+		width: 100%;
+	}
 }
 
 
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
+	h2 {
+		font-size: 20px;
+		padding: 20px 0;
+	}
+
 	.search {
 		width: 75%;
 	}
@@ -267,6 +318,24 @@
 		font-weight: normal;
 	}
 	.contentSlider p {
+		font-size: 16px;
+	}
+	.contentCentreKingisepp p{
+		font-size: 15px;
+	}
+	.textReasons{
+		width: 55%;
+		margin-top: -4%;
+	}
+	.reasonsBlock .imgReason{
+		width: 35%;
+	}
+	.reasonsBlock h3{
+		font-size: 18px;
+		padding: 5px 0 10px;
+	}
+
+	.reasonsBlock p{
 		font-size: 16px;
 	}
 
@@ -285,10 +354,21 @@
 		width: 210px;
 		content: "ЗАПИСАТЬСЯ";
 	}
-	span{
+	.buttonSlider span{
 		display: none
 	}
 	span.mobilePortrait{
 		display: block;
+	}
+	.textReasons{
+		margin-top: -10%;
+		width: 62%;
+	}
+	.reasonsBlock p{
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+	.reasonsBlock h2{
+		padding: 25px 0;
 	}
 }
