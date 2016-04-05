@@ -521,6 +521,14 @@ padding-right: 10px;
 		padding: 25px 0;
 	}
 
+	.allRights{
+		width: 60%;
+	}
+
+	.map{
+		width: 40%;
+	}
+
 	footer{
 		font-size: 13px;
 	}
