@@ -12,4 +12,16 @@ $(document).ready(function(){
         speed: 1000,             // длительность перехода слайда в м-сек
 
     });
+
+
+    $(".fa-bars").click(function() {
+        $(".navbar-nav").slideToggle("slow");
+    });
+
 });
+
+
+jQuery(window).resize(function(){
+    jQuery(".mobileMenu .navbar-nav").hide();
+});
+jQuery(window).resize();
