@@ -64,10 +64,6 @@
 		padding: 10px 0 0;
 	}
 
-	.bx-controls-direction, .bx-wrapper .bx-pager{
-		display: none;
-	}
-
 	.searchHeader {
 		display: block;
 	}
@@ -96,7 +92,9 @@
 	img.laptop {
 		display: block;
 	}
-
+	/*.bx-wrapper img {*/
+		/*margin: 0 auto;*/
+	/*}*/
 	.doctorImg{
 		width: 45%;
 		left: 7%;
@@ -107,7 +105,7 @@
 	}
 
 	.buttonSlider {
-		margin-bottom: 28%;
+		margin-bottom: 40%;
 	}
 	.textSlider {
 		margin-bottom: 8%;
@@ -119,6 +117,9 @@
 }
 
 @media screen and (max-width: 767px) {
+	.bx-controls-direction, .bx-wrapper .bx-pager{
+		display: none;
+	}
 
 	img.mobile{
 		display: block;

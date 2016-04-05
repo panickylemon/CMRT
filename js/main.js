@@ -10,7 +10,7 @@ $(document).ready(function(){
         autoControls: false,     // показывает кнопку плей и стоп
         pause: 4000,            // время между сменой слайдов в м-сек
         speed: 1000,             // длительность перехода слайда в м-сек
-
+        adaptiveHeight: true
     });
 
 
