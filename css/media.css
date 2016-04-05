@@ -324,14 +324,29 @@ padding-right: 10px;
 		font-size: 15px;
 		width: 100%;
 		max-width: 93%;
-		width: -moz-calc(100% - 10px);
-		width: calc(100% - 10px);
+		width: -moz-calc(98% - 10px);
+		width: calc(98% - 10px);
 		height: auto;
 		margin-left: 22px;
 		margin-top: -45px;
 		margin-right: 10px;
 		padding: 15px;
 	}
+	.additionalInfo{
+		max-width: 90%;
+		width: 90%;
+		margin:  0 auto 20px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.additionalInfo p{
+		display: inline;
+		text-align: center;
+	}
+	.enrollBlock h2 {
+		padding: 40px 0 50px;
+	}
+
 }
 
 
@@ -359,6 +374,9 @@ padding-right: 10px;
 	.reasonsBlock .imgReason img{
 		width: 100%;
 	}
+	.enrollBlock .container{
+		padding: 0 10px 0 0;
+	}
 }
 
 
@@ -368,6 +386,9 @@ padding-right: 10px;
 	h2 {
 		font-size: 20px;
 		padding: 20px 0;
+	}
+	.enrollBlock h2 {
+		padding: 20px 0 30px;
 	}
 
 	.search {
@@ -398,6 +419,9 @@ padding-right: 10px;
 
 	.reasonsBlock p{
 		font-size: 16px;
+	}
+	.enrollBlock .container{
+		padding: 0 15px 0 0;
 	}
 
 }
