@@ -99,16 +99,6 @@ a:hover, a:active {
 	box-sizing: border-box;
 }
 
-footer {
-	width: 100%;
-	max-width: 1920px;
-	background: wheat;
-	height: 100px;
-	margin: 0 auto -100px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
 .wrapper {
 	min-height: 100%;
@@ -611,4 +601,79 @@ span.mobilePortrait {
 
 .questionsBlock .phone{
 	font-size: 26px;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	max-width: 1920px;
+	background: #ffffff;
+	margin: 0 auto -100px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+footer ul li{
+	list-style-type: none;
+}
+
+footer ul li:before {
+	 color: black;
+	 content: "•";
+	 padding-right: 5px;
+ }
+
+
+footer ul a{
+	color: #0f0f0f;
+	text-decoration: none;
+}
+
+footer ul a:hover{
+	color: #a54e72;
+	text-decoration: none;
+	border-bottom: 1px dashed #a54e72;
+}
+
+footer .container{
+	padding: 0 20px;
+}
+
+/*.menuFooter, .typeResearch, .contactsFooter{*/
+	/*border: 1px solid red;*/
+/*}*/
+
+.contactsFooter{
+	text-align: right;
+}
+
+.buttonAsk{
+	float: right;
+	cursor: pointer;
+	border: 1px solid #a54e72;
+	max-width: 180px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.buttonAsk a {
+	display: block;
+	text-decoration: none;
+	color: #a54e72;
+	font-size: 13px;
+	padding: 5px 40px;
+	text-align: center;
+}
+
+.topFooter{
+	padding: 20px 0;
 }
