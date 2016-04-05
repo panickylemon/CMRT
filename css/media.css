@@ -92,9 +92,7 @@ padding-right: 10px;
 	img.laptop {
 		display: block;
 	}
-	/*.bx-wrapper img {*/
-		/*margin: 0 auto;*/
-	/*}*/
+
 	.doctorImg{
 		width: 45%;
 		left: 7%;
@@ -113,10 +111,36 @@ padding-right: 10px;
 	.phoneBlock .phone {
 		font-size: 23px;
 	}
-
+	.itemInfo {
+		width: 100%;
+	}
+	.textItemInfo {
+		font-size: 16px;
+		margin-left: 64px;
+	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+	.enrollBlock{
+		background: url("../image/enrollBackg992.png") no-repeat;
+		background-size: cover;
+	}
+	.textItemEnroll{
+		max-width: 675px;
+	}
+	.alignEnroll{
+		max-width: 755px;
+	}
+	.textEnroll{
+		margin-left: 10px;
+	}
+
+	.textEnroll div:first-child{
+		padding: 12px 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.bx-controls-direction, .bx-wrapper .bx-pager{
 		display: none;
 	}
@@ -271,6 +295,43 @@ padding-right: 10px;
     .mobileHidden{
 	    display: none;
     }
+	.itemInfo {
+		margin: 10px auto;
+	}
+	.textItemInfo {
+		margin-left: 70px;
+	}
+	.enrollBlock{
+		background: #ebf4fd;
+	}
+
+	.circleMobile {
+		display: block;
+	}
+	.textEnroll{
+		float: none;
+	}
+
+	.textItemEnroll .helper{
+		display: none;
+	}
+
+	.numberPoint{
+		display: none;
+	}
+
+	.textItemEnroll{
+		font-size: 15px;
+		width: 100%;
+		max-width: 93%;
+		width: -moz-calc(100% - 10px);
+		width: calc(100% - 10px);
+		height: auto;
+		margin-left: 22px;
+		margin-top: -45px;
+		margin-right: 10px;
+		padding: 15px;
+	}
 }
 
 

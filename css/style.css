@@ -121,6 +121,12 @@ footer {
 }
 
 /*вспомогательные модификации*/
+.helper {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0;
+}
 
 .main {
 	padding-bottom: 100px;
@@ -403,15 +409,14 @@ span.mobilePortrait {
 
 /*centreKingisepp*/
 
-
-.contentCentreKingisepp{
+.contentCentreKingisepp {
 	width: 100%;
 	max-width: 480px;
 	margin: auto;
 	padding: 0 10px;
 }
 
-.contentCentreKingisepp p{
+.contentCentreKingisepp p {
 	font-size: 16px;
 }
 
@@ -419,3 +424,182 @@ span.mobilePortrait {
 	width: 100%;
 	padding-bottom: 20px;
 }
+
+.itemInfo {
+	background: #f6f8f9;
+	margin: 30px auto;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+}
+
+.imgIcon{
+	width: 70px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.itemInfo .pinkColor{
+	font-weight: bold;
+	display: inline-block;
+	width: 155px;
+}
+
+.imgIcon img {
+	max-height: 70px;
+	width: auto;
+}
+
+.alignItemInfo{
+	display: inline-block;
+}
+
+.textItemInfo {
+	margin-left: 70px;
+	margin-top: -70px;
+	text-align: left;
+	font-size: 18px;
+}
+
+/*enrollBlock*/
+
+.enrollBlock{
+	width: 100%;
+	background: url("../image/enrollBackg.png") no-repeat;
+	background-size: cover;
+}
+
+.enrollBlock h2{
+	color: #488ba7;
+	padding: 40px 0 60px;
+}
+
+.circle, .circleLast{
+	width: 62px;
+	height: 62px;
+	background: #ffffff;
+	-moz-border-radius: 31px;
+	-webkit-border-radius: 31px;
+	border-radius: 31px;
+	border: 1px solid #488ba7;
+	text-align: center;
+	position: relative;
+}
+
+.circleMobile{
+	display: none;
+	position: relative;
+	width: 42px;
+	height: 42px;
+	-moz-border-radius: 21px;
+	-webkit-border-radius: 21px;
+	border-radius: 21px;
+	background: #ffffff;
+	border: 1px solid #488ba7;
+	text-align: center;
+}
+
+.circle span, .circleLast span{
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	font-size: 26px;
+	font-weight: bold;
+	color: #488ba7;
+	padding-top: 10px;
+}
+
+.circleMobile span{
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	font-size: 26px;
+	font-weight: bold;
+	color: #488ba7;
+	padding-top: 1px;
+}
+
+.circle:after{
+	background: url("../image/arrow2.png") no-repeat;
+	height: 70px;
+	width: 50px;
+	content: " ";
+	text-align: center;
+	line-height: 42px;
+	float: right;
+	position: relative;
+	top: 13px;
+	left: 8px;
+}
+
+.itemPoint{
+	width: 64px;
+	height: 119px;
+}
+
+.alignEnroll{
+	max-width: 920px;
+	margin: auto;
+}
+
+.alignEnroll:after, .alignEnroll:before{
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.numberPoint{
+	 float: left;
+}
+
+
+
+.textEnroll{
+	float: left;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+.textItemEnroll{
+	background: rgba(249, 251, 253, 0.7);
+	max-width: 830px;
+	padding: 20px 0;
+	font-size: 18px;
+	margin-bottom: 20px;
+	height: 100px;
+}
+
+.textItemEnroll p{
+	display:inline-block;
+	vertical-align:middle;
+	padding: 0 10px;
+}
+
+.textItemEnroll span{
+	font-weight: bold;
+
+}
+
+.additionalInfo{
+	font-size: 14px;
+	color: #a54e72;
+	width: 585px;
+	margin: 0 auto 30px;
+	font-weight: bold;
+}
+
+.additionalInfo .circleSmall{
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 15px;
+	border: 1px solid #a54e72;
+	text-align: center;
+
+}
+
+.circleSmall, .additionalInfo p{
+	display: inline-block;
+}
+
