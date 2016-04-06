@@ -17,6 +17,7 @@ $(document).ready(function(){
         $(".navbar-nav").slideToggle("slow");
     });
 
+    $('input, textarea').placeholder();
 });
 
 

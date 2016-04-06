@@ -1,12 +1,5 @@
-/*для ie*/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-body{
-padding-right: 10px;
-}
-}
-
 @media screen and (max-width: 1700px) {
-	.doctorImg{
+	.doctorImg {
 		width: 28%;
 	}
 
@@ -16,7 +9,7 @@ padding-right: 10px;
 }
 
 @media screen and (max-width: 1500px) {
-	.doctorImg{
+	.doctorImg {
 		width: 25%;
 	}
 
@@ -33,19 +26,21 @@ padding-right: 10px;
 	.contentSlider {
 		width: 47%;
 	}
+
 	.buttonSlider {
 		margin-bottom: 10%;
 	}
+
 	.textSlider {
 		margin-bottom: 8%;
 	}
 }
 
-
 @media screen and (max-width: 1165px) {
 	.textSlider {
 		padding: 5px 10px 10px;
 	}
+
 	.contentSlider h1 {
 		font-size: 23px;
 		margin: 10px 0 15px;
@@ -56,8 +51,6 @@ padding-right: 10px;
 		margin: 0;
 	}
 }
-
-
 
 @media screen and (max-width: 1024px) {
 	header {
@@ -93,10 +86,11 @@ padding-right: 10px;
 		display: block;
 	}
 
-	.doctorImg{
+	.doctorImg {
 		width: 45%;
 		left: 7%;
 	}
+
 	.contentSlider {
 		right: 7%;
 		width: 45%;
@@ -105,15 +99,19 @@ padding-right: 10px;
 	.buttonSlider {
 		margin-bottom: 30%;
 	}
+
 	.textSlider {
 		margin-bottom: 8%;
 	}
+
 	.phoneBlock .phone {
 		font-size: 23px;
 	}
+
 	.itemInfo {
 		width: 100%;
 	}
+
 	.textItemInfo {
 		font-size: 16px;
 		margin-left: 64px;
@@ -121,36 +119,41 @@ padding-right: 10px;
 }
 
 @media screen and (max-width: 992px) {
-	.enrollBlock{
+	.enrollBlock {
 		background: url("../image/enrollBackg992.png") no-repeat;
 		background-size: cover;
 	}
-	.textItemEnroll{
+
+	.textItemEnroll {
 		max-width: 675px;
 	}
-	.alignEnroll{
+
+	.alignEnroll {
 		max-width: 755px;
 	}
-	.textEnroll{
+
+	.textEnroll {
 		margin-left: 10px;
 	}
 
-	.textEnroll div:first-child{
+	.textEnroll div:first-child {
 		padding: 12px 0;
 	}
 }
 
 @media screen and (max-width: 767px) {
-	.bx-controls-direction, .bx-wrapper .bx-pager{
+	.bx-controls-direction, .bx-wrapper .bx-pager {
 		display: none;
 	}
 
-	img.mobile{
+	img.mobile {
 		display: block;
 	}
+
 	img.laptop {
 		display: none;
 	}
+
 	.contentSlider h1 {
 		font-size: 22px;
 		font-weight: normal;
@@ -160,7 +163,7 @@ padding-right: 10px;
 		display: block;
 	}
 
-	.doctorImg{
+	.doctorImg {
 		width: 50%;
 		left: 0;
 	}
@@ -183,7 +186,7 @@ padding-right: 10px;
 		display: none;
 	}
 
-	.dropdown-menu li{
+	.dropdown-menu li {
 		text-align: center;
 	}
 
@@ -214,7 +217,7 @@ padding-right: 10px;
 		margin: auto;
 	}
 
-	.contactsBlock{
+	.contactsBlock {
 		background: #f6f8f9;
 		padding-top: 5px;
 	}
@@ -256,8 +259,8 @@ padding-right: 10px;
 		width: 100%
 	}
 
-	.form-group{
-		margin: 0%;
+	.form-group {
+		margin: 0;
 	}
 
 	.navbar-form {
@@ -268,59 +271,68 @@ padding-right: 10px;
 		display: block;
 	}
 
-	.textReasons{
+	.textReasons {
 		width: 45%;
 		max-width: none;
 	}
-    .reasonsBlock .imgReason{
-	    width: 55%;
-    }
 
-    .accuracyBlock .imgReason, .availabilityBlock .imgReason, .speedBlock .textReasons{
-	    float: left;
-    }
+	.reasonsBlock .imgReason {
+		width: 55%;
+	}
 
-	.speedBlock .textReasons{
+	.accuracyBlock .imgReason, .availabilityBlock .imgReason, .speedBlock .textReasons {
+		float: left;
+	}
+
+	.speedBlock .textReasons {
 		text-align: right;
 	}
-	.accuracyBlock .textReasons, .availabilityBlock .textReasons, .speedBlock .imgReason{
+
+	.accuracyBlock .textReasons, .availabilityBlock .textReasons, .speedBlock .imgReason {
 		float: right;
 	}
-	.accuracyBlock .textReasons, .availabilityBlock .textReasons{
+
+	.accuracyBlock .textReasons, .availabilityBlock .textReasons {
 		text-align: left;
 	}
-	.reasonsBlock .container{
+
+	.reasonsBlock .container {
 		padding: 0 10px;
 	}
-    .mobileHidden{
-	    display: none;
-    }
+
+	.mobileHidden {
+		display: none;
+	}
+
 	.itemInfo {
 		margin: 10px auto;
 	}
+
 	.textItemInfo {
 		margin-left: 70px;
 	}
-	.enrollBlock{
+
+	.enrollBlock {
 		background: #ebf4fd;
 	}
 
 	.circleMobile {
 		display: block;
 	}
-	.textEnroll{
+
+	.textEnroll {
 		float: none;
 	}
 
-	.textItemEnroll .helper{
+	.textItemEnroll .helper {
 		display: none;
 	}
 
-	.numberPoint{
+	.numberPoint {
 		display: none;
 	}
 
-	.textItemEnroll{
+	.textItemEnroll {
 		font-size: 15px;
 		width: 100%;
 		max-width: 93%;
@@ -332,115 +344,131 @@ padding-right: 10px;
 		margin-right: 10px;
 		padding: 15px;
 	}
-	.additionalInfo{
+
+	.additionalInfo {
 		max-width: 90%;
 		width: 90%;
-		margin:  0 auto 20px;
+		margin: 0 auto 20px;
 		text-align: center;
 		font-size: 14px;
 	}
-	.additionalInfo p{
+
+	.additionalInfo p {
 		display: inline;
 		text-align: center;
 	}
+
 	.enrollBlock h2 {
 		padding: 40px 0 50px;
 	}
-	.questionsBlock p{
+
+	.questionsBlock p {
 		margin: 0;
 	}
-	.mobileMenuFooter{
+
+	.mobileMenuFooter {
 		background: #f6f8fa;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		margin-bottom: 7px;
 	}
 
-	.mobileMenuFooter:after, .mobileMenuFooter:before{
+	.mobileMenuFooter:after, .mobileMenuFooter:before {
 		clear: both;
 		content: " ";
 		display: table;
 	}
 
-    .menuFooter{
-	    float: left;
-	    width: 50%;
-	    padding-left: 10px;
-    }
+	.menuFooter {
+		float: left;
+		width: 50%;
+		padding-left: 10px;
+	}
 
-    .typeResearch{
-	    float: right;
-	    width: 50%;
-	    padding-right: 10px;
-    }
-    .contactsFooter{
-	    text-align: center;
-	    margin-bottom: 10px;
-    }
-    .buttonAsk{
-	    float: none;
-	    margin: auto;
-    }
-	footer .container{
+	.typeResearch {
+		float: right;
+		width: 50%;
+		padding-right: 10px;
+	}
+
+	.contactsFooter {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.buttonAsk {
+		float: none;
+		margin: auto;
+	}
+
+	footer .container {
 		padding: 0;
 	}
-	.bottomFooter .container{
+
+	.bottomFooter .container {
 		padding: 0 10px;
 	}
 
-    .topFooter {
-	     padding: 0;
-    }
-	footer ul{
+	.topFooter {
+		padding: 0;
+	}
+
+	footer ul {
 		margin: auto;
 	}
-	.menuFooter ul{
+
+	.menuFooter ul {
 		max-width: 120px;
 	}
-	.typeResearch ul{
-	    max-width: 174px;
-    }
+
+	.typeResearch ul {
+		max-width: 174px;
+	}
 
 }
-
 
 @media screen and (max-width: 480px) {
 
-	img.mobilePortrait{
+	img.mobilePortrait {
 		display: block;
 	}
-	img.mobile{
+
+	img.mobile {
 		display: none;
 	}
-	.doctorImg{
+
+	.doctorImg {
 		width: 80%;
 	}
-	.reasonsBlock{
+
+	.reasonsBlock {
 		padding-bottom: 5%;
 	}
-	.textReasons{
+
+	.textReasons {
 		width: 50%;
 		margin-top: -2%;
 	}
-	.reasonsBlock .imgReason{
+
+	.reasonsBlock .imgReason {
 		width: 40%;
 	}
-	.reasonsBlock .imgReason img{
+
+	.reasonsBlock .imgReason img {
 		width: 100%;
 	}
-	.enrollBlock .container{
+
+	.enrollBlock .container {
 		padding: 0 10px 0 0;
 	}
 }
-
-
-
 
 @media screen and (max-width: 380px) {
 	h2 {
 		font-size: 20px;
 		padding: 20px 0;
 	}
+
 	.enrollBlock h2 {
 		padding: 20px 0 30px;
 	}
@@ -453,40 +481,49 @@ padding-right: 10px;
 		font-size: 20px;
 		font-weight: normal;
 	}
+
 	.contentSlider p {
 		font-size: 16px;
 	}
-	.contentCentreKingisepp p{
+
+	.contentCentreKingisepp p {
 		font-size: 15px;
 	}
-	.textReasons{
+
+	.textReasons {
 		width: 55%;
 		margin-top: -4%;
 	}
-	.reasonsBlock .imgReason{
+
+	.reasonsBlock .imgReason {
 		width: 35%;
 	}
-	.reasonsBlock h3{
+
+	.reasonsBlock h3 {
 		font-size: 18px;
 		padding: 5px 0 10px;
 	}
-	.reasonsBlock p{
+
+	.reasonsBlock p {
 		font-size: 16px;
 	}
-	.enrollBlock .container{
+
+	.enrollBlock .container {
 		padding: 0 15px 0 0;
 	}
-	.questionsBlock{
+
+	.questionsBlock {
 		font-size: 16px;
 		padding: 10px 0;
 	}
-	.questionsBlock .phone{
+
+	.questionsBlock .phone {
 		font-size: 18px;
 	}
-	footer{
+
+	footer {
 		font-size: 14px;
 	}
-
 
 }
 
@@ -495,6 +532,7 @@ padding-right: 10px;
 		font-size: 18px;
 		font-weight: normal;
 	}
+
 	.contentSlider p {
 		font-size: 14px;
 	}
@@ -503,33 +541,38 @@ padding-right: 10px;
 		width: 210px;
 		content: "ЗАПИСАТЬСЯ";
 	}
-	.buttonSlider span{
+
+	.buttonSlider span {
 		display: none
 	}
-	span.mobilePortrait{
+
+	span.mobilePortrait {
 		display: block;
 	}
-	.textReasons{
+
+	.textReasons {
 		margin-top: -10%;
 		width: 62%;
 	}
-	.reasonsBlock p{
+
+	.reasonsBlock p {
 		font-size: 18px;
 		padding-bottom: 20px;
 	}
-	.reasonsBlock h2{
+
+	.reasonsBlock h2 {
 		padding: 25px 0;
 	}
 
-	.allRights{
+	.allRights {
 		width: 60%;
 	}
 
-	.map{
+	.map {
 		width: 40%;
 	}
 
-	footer{
+	footer {
 		font-size: 13px;
 	}
 }

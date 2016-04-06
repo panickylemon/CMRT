@@ -6,8 +6,6 @@
 html {
 	height: 100%;
 	color: #000;
-	/*-webkit-text-size-adjust: 100%;*/
-	/*-ms-text-size-adjust: 100%;*/
 }
 
 body {
@@ -55,7 +53,7 @@ a img {
 }
 
 a {
-	outline: none !important; /* убирает обводку у кнопок и ссылок */
+	outline: none !important;
 }
 
 a:hover, a:active {
@@ -74,31 +72,14 @@ a:hover, a:active {
 	opacity: 0;
 }
 
-/* для iphone - убирает автоматическое откругление уголов */
-/*input[type="text"],input[type="password"], textarea{*/
-/*border-radius: 0 !important;*/
-/*-webkit-border-radius: 0 !important;*/
-/*-o-border-radius: 0 !important;*/
-/*-moz-border-radius: 0 !important;*/
-/*-khtml-border-radius: 0 !important;*/
-/*-webkit-appearance: none;*/
-/*line-height: inherit;*/
-/*}*/
-
-/*input[type="radio"] {*/
-/*-webkit-appearance: radio;*/
-/*}*/
-
 .container {
 	width: 100%;
 	max-width: 1460px;
 	margin: auto;
-	/*border: 1px solid red;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 
 .wrapper {
 	min-height: 100%;
@@ -371,7 +352,6 @@ span.mobilePortrait {
 
 .reasonsBlock {
 	width: 100%;
-	/*height: 150px;*/
 	background: #488ba7;
 	color: white;
 	text-align: center;
@@ -419,13 +399,13 @@ span.mobilePortrait {
 	text-align: center;
 }
 
-.imgIcon{
+.imgIcon {
 	width: 70px;
 	text-align: center;
 	padding-top: 25px;
 }
 
-.itemInfo .pinkColor{
+.itemInfo .pinkColor {
 	font-weight: bold;
 	display: inline-block;
 	width: 155px;
@@ -436,7 +416,7 @@ span.mobilePortrait {
 	width: auto;
 }
 
-.alignItemInfo{
+.alignItemInfo {
 	display: inline-block;
 }
 
@@ -449,18 +429,18 @@ span.mobilePortrait {
 
 /*enrollBlock*/
 
-.enrollBlock{
+.enrollBlock {
 	width: 100%;
 	background: url("../image/enrollBackg.png") no-repeat;
 	background-size: cover;
 }
 
-.enrollBlock h2{
+.enrollBlock h2 {
 	color: #488ba7;
 	padding: 40px 0 60px;
 }
 
-.circle, .circleLast{
+.circle, .circleLast {
 	width: 62px;
 	height: 62px;
 	background: #ffffff;
@@ -472,7 +452,7 @@ span.mobilePortrait {
 	position: relative;
 }
 
-.circleMobile{
+.circleMobile {
 	display: none;
 	position: relative;
 	width: 42px;
@@ -485,7 +465,7 @@ span.mobilePortrait {
 	text-align: center;
 }
 
-.circle span, .circleLast span{
+.circle span, .circleLast span {
 	display: inline-block;
 	text-align: center;
 	margin: auto;
@@ -495,7 +475,7 @@ span.mobilePortrait {
 	padding-top: 10px;
 }
 
-.circleMobile span{
+.circleMobile span {
 	display: inline-block;
 	text-align: center;
 	margin: auto;
@@ -505,7 +485,7 @@ span.mobilePortrait {
 	padding-top: 1px;
 }
 
-.circle:after{
+.circle:after {
 	background: url("../image/arrow2.png") no-repeat;
 	height: 70px;
 	width: 50px;
@@ -518,33 +498,33 @@ span.mobilePortrait {
 	left: 8px;
 }
 
-.itemPoint{
+.itemPoint {
 	width: 64px;
 	height: 119px;
 }
 
-.alignEnroll{
+.alignEnroll {
 	max-width: 920px;
 	margin: auto;
 }
 
-.alignEnroll:after, .alignEnroll:before{
+.alignEnroll:after, .alignEnroll:before {
 	clear: both;
 	content: " ";
 	display: table;
 }
 
-.numberPoint{
-	 float: left;
+.numberPoint {
+	float: left;
 }
 
-.textEnroll{
+.textEnroll {
 	float: left;
 	margin-left: 20px;
 	margin-top: -20px;
 }
 
-.textItemEnroll{
+.textItemEnroll {
 	background: rgba(249, 251, 253, 0.7);
 	max-width: 830px;
 	padding: 20px 0;
@@ -553,26 +533,25 @@ span.mobilePortrait {
 	height: 100px;
 }
 
-.textItemEnroll p{
-	display:inline-block;
-	vertical-align:middle;
+.textItemEnroll p {
+	display: inline-block;
+	vertical-align: middle;
 	padding: 0 10px;
 }
 
-.textItemEnroll span{
+.textItemEnroll span {
 	font-weight: bold;
-
 }
 
-.additionalInfo{
+.additionalInfo {
 	font-size: 14px;
 	color: #a54e72;
-	width: 585px;
+	width: 610px;
 	margin: 0 auto 30px;
 	font-weight: bold;
 }
 
-.additionalInfo .circleSmall{
+.additionalInfo .circleSmall {
 	width: 20px;
 	height: 20px;
 	-moz-border-radius: 12px;
@@ -580,17 +559,24 @@ span.mobilePortrait {
 	border-radius: 15px;
 	border: 1px solid #a54e72;
 	text-align: center;
-
 }
 
-.circleSmall, .additionalInfo p{
+.circleSmall {
 	display: inline-block;
 }
 
+.circleSmall span {
+	display: block;
+	margin-top: -1px;
+}
+
+.additionalInfo p {
+	display: inline;
+}
 
 /*questionsBlock*/
 
-.questionsBlock{
+.questionsBlock {
 	width: 100%;
 	padding: 20px 0;
 	background: #488ba7;
@@ -599,13 +585,13 @@ span.mobilePortrait {
 	font-size: 20px;
 }
 
-.questionsBlock .phone{
+.questionsBlock .phone {
 	font-size: 26px;
 }
 
 /*footer*/
 
-footer{
+footer {
 	width: 100%;
 	max-width: 1920px;
 	background: #ffffff;
@@ -616,37 +602,36 @@ footer{
 	font-size: 15px;
 }
 
-footer ul li{
+footer ul li {
 	list-style-type: none;
 }
 
 footer ul li:before {
-	 color: black;
-	 content: "•";
-	 padding-right: 5px;
- }
+	color: black;
+	content: "•";
+	padding-right: 5px;
+}
 
-
-footer ul a{
+footer ul a {
 	color: #0f0f0f;
 	text-decoration: none;
 }
 
-footer ul a:hover{
+footer ul a:hover {
 	color: #a54e72;
 	text-decoration: none;
 	border-bottom: 1px dashed #a54e72;
 }
 
-footer .container{
+footer .container {
 	padding: 0 20px;
 }
 
-.contactsFooter{
+.contactsFooter {
 	text-align: right;
 }
 
-.buttonAsk{
+.buttonAsk {
 	float: right;
 	cursor: pointer;
 	border: 1px solid #a54e72;
@@ -669,35 +654,35 @@ footer .container{
 	text-align: center;
 }
 
-.topFooter{
+.topFooter {
 	padding: 20px 0;
 }
 
-.bottomFooter{
+.bottomFooter {
 	border-top: 2px solid #f5f5f5;
 	font-size: 13px;
 	padding: 10px 0;
 }
 
-.bottomFooter:after, .bottomFooter:before{
+.bottomFooter:after, .bottomFooter:before {
 	clear: both;
 	content: " ";
 	display: table;
 }
 
-.allRights{
+.allRights {
 	width: 70%;
 }
 
-.map{
+.map {
 	width: 30%;
 }
 
-.map{
+.map {
 	text-align: right;
 }
 
-.map a{
+.map a {
 	color: #a54e72;
 	text-decoration: none;
 	cursor: pointer;
